@@ -25,5 +25,15 @@ public class OperatorAritmatika {
         y %= 7;
         System.out.println("y %= 7  -> " + y);
 
+        // Operator Post-increment dan Pre-increment
+        int p = 5;
+
+        int q = p++;
+        int r = ++p;
+
+        System.out.println("Nilai p = " + p);
+        System.out.println("Nilai q = " + q);
+        System.out.println("Nilai r = " + r);
+
     }
 }
